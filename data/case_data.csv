@@ -1,0 +1,4 @@
+method,url,expect_code
+GET,https://httpbin.org/get,200
+GET,https://httpbin.org/status/404,404
+GET,https://httpbin.org/status/500,500
